@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html {
+      font-size: 16px; /* Set a base font size for the root element */
+    }
+
+    body {
+      font-size: 1em; /* 1em is equal to the font size of the parent, which is the root element here */
+    }
+
+    .container {
+      font-size: 1.5em; /* 1.5em is 1.5 times the font size of the parent (body in this case) */
+      margin-bottom: 20px;
+    }
+
+    .nested {
+      font-size: 1.2em; /* 1.2em is 1.2 times the font size of its parent (.container in this case) */
+      color: blue;
+    }
+  </style>
+  <title>REM and EM Example</title>
+</head>
+<body>
+  <div class="container">
+    <p>This is a paragraph with a font size of 1.5em.</p>
+    <div class="nested">
+      <p>This paragraph has a font size of 1.2em, which is 1.2 times the font size of its parent.</p>
+    </div>
+  </div>
+</body>
+</html>

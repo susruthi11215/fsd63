@@ -1,0 +1,106 @@
+.div1{
+    height: 1300px;
+    width: 800px;
+    background-color: aqua;
+    margin: 10px 400px 50px 300px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.div2{
+    height: 1250px;
+    width: 700px;
+    background-color: white;
+    margin: 10px 20px 0px 50px;
+}
+.div3{
+    width:700px;
+    height: 120px;
+    background-color:khaki;
+    margin:0px;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    font-weight: 50px;
+    /* font-style: normal; */
+    text-align:center;
+    margin-right:100px;
+}
+img{
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+.ele{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+button{
+    align-self: center;
+   }
+   sup{
+    color: red;
+}
+.bugtitle{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}
+.id{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}
+.os{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}
+.at{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}
+.priority{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}
+.ss{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}
+.status{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+}

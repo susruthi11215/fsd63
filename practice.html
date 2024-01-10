@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .outer-Block {
+            background-color:aqua;
+            height: 1500px;
+            width: 400px;
+            padding: 20px;
+            overflow-y: scroll;
+        }
+
+        .inner-Block1 {
+            background-color: white;
+            height: 1450px;
+            width: 350px;
+            margin-bottom: 20px; 
+            margin-left: 20px;
+
+        }
+        .inner-Block2{
+            padding-top: 400px;
+            background-color: yellow;
+            width: 350px;
+            height: 200px;
+            
+        }
+       sup{
+        color: red;
+       }
+       h1{
+        padding-left: 15px;
+       }
+       button{
+        align-self: center;
+       }
+       .ele{
+        padding-top: 20px;
+        padding-left: 10px;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="outer-Block">
+        <div class="inner-Block1">
+            <div class="inner-Block2">
+            <h1>BUG <br> TRAKER</h1>Report all bugs!
+            </div>
+            <div class="ele">
+            <form action="">
+
+                BugTitle:<sup>*</sup><br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp;   __________________________<br><br>
+                Issue Descryption:<sup>*</sup><br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp;   __________________________<br> <br>
+                Operating System:<sup>*</sup><br><br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp;<select><option value="">-select-</option>
+                    <option value="">MAC</option>
+                    <option value="">WINDOWS</option>
+                    <option value="">FireFox</option></select> <br><br>   <br><br>
+                Browser:<sup>*</sup><br><input type="radio" Name="os" Value="">Internet Explorer <br>
+                <input type="radio" Name="os" Value="">chrome <br>
+                <input type="radio" Name="os" Value="">Firefox<br>
+                <input type="radio" Name="os" Value="">safari<br>
+                <input type="radio" Name="os" Value="">opera <br>
+                <input type="radio" Name="os" Value="">other &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;   _______________ <br>
+                Assigned To:<sup>*</sup><br><br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp;<select><option value="">-select-</option>
+                    <option value="">susruthi</option>
+                    <option value="">maha</option>
+                    <option value="">priyanka</option></select> <br><br>   <br><br>
+                Priority:<sup>*</sup><br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp;<select><option value="">-select-</option>
+                    <option value="">MAC</option>
+                    <option value="">WINDOWS</option>
+                    <option value="">FireFox</option></select> <br><br>   <br><br>
+                Screenshot:<sup>*</sup> <br>&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp;choose file<input type="file"></input><br>
+                status:<sup>*</sup><br>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp; &nbsp;<select><option value="">-select-</option>
+                    <option value="">slow</option>
+                    <option value="">moderate</option>
+                    <option value="">quick</option></select> <br><br>   <br><br>
+
+
+                
+                <button type="submit" style="width: 150px; height: 40px; border-radius: 5px; background-color:aqua;">Submit</button>
+
+
+
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
