@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Flexbox Example</title>
+  <style>
+    body, html {
+  height: 100%;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.flex-box {
+  display: flex;
+  width: 600px; 
+  height: 600px; 
+  margin: 0px; 
+  background-color: #3498db; 
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+#white{
+    background-color:white;
+}
+@media and(max-width:800px){
+    .container{
+        flex-direction:column;
+    }
+}
+.flex-box hr {
+      width: 25px;
+      height: 5px;
+      background-color: white;
+      border: none;
+      border-radius: 50%;
+    }
+     .flex-box p,
+    .flex-box h1,
+    .flex-box hr,
+    .flex-box div {
+      margin: 5px 0; 
+    }
+    
+    .margin{
+      border-left: 7px solid rgb(20, 148, 234);
+            height: 40px;
+            background-color: lightgray ;
+            outline: none;
+            border-top: 0cap;
+            border-bottom: 0cap;
+            border-right: 0cap;
+            width: 250px;
+    }
+    
+
+  </style>
+</head>
+
+
+
+<body>
+  <div class="container">
+    <div class="flex-box"><p>Nice to see you Again</p><h1>WELCOME BACK</h1><hr><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta itaque voluptatem laborum, deserunt earum tenetur nesciunt quasi aut minus incidunt placeat impedit obcaecati recusandae libero quis nisi amet ullam similique?
+
+    </p></div>
+    <div class="flex-box" id="white">
+      <h1 style="color:aqua;">Login Account</h1>
+      <p style="color: gray;">Lorem ipsum dolor, sriam voluptatem dolorem, distinctio maxime at corrupti aliqssitatibus veniam eum! Ducimus consequatur accusamus sapiente fugit deserunt asperiores fugiat officia delectus, omnis temporibus.</p>
+      <form action="">
+        <input type="email" placeholder="Email ID" class="margin"><br>
+        <input type="password" placeholder="Password" class="margin"><br>
+        <input type="checkbox" name="">Keep me signed in</input>
+        <p style="color: #3498db;">Already a member?</p>
+        <button type="submit" style="color: white; background-color: #3498db;">SUBSCRIBE</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
